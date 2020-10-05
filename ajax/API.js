@@ -4,7 +4,7 @@ function ola(){
 	var nome = $('#mensagem').val();
 
 	$.ajax({
-			url: 'http://roxytech.com.br/ajax/email.php',
+			url: 'https://roxytech.com.br/ajax/email.php',
 			type: 'post',
 			data: {nome: nome, email: email, mensagem: mensagem},
 			dataType: 'json',
