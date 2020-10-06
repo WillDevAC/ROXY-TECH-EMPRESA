@@ -7,7 +7,7 @@ $('#form1').submit(function(e){
 	var mensagem = $('#mensagem').val();
 
 	$.ajax({
-		url: 'https://radiocampusapi.com.br/email/send',
+		url: 'https://radiocampusapi.com.br/roxytech/email/send',
 		type: 'GET',
 		dataType: 'json',
 		data: {mensagem: 'CLIENTE: '+ nome + ' || EMAIL:  '+ email + ' || PROJETO DETALHADO: ' + mensagem + ''},
