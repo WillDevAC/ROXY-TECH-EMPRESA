@@ -1,11 +1,4 @@
 
-
-/*
-Author: Bootstrapthemes
-Author URI: http://www.xpeedstudio.com
-*/
-
-/* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
     body {
         font-size: 1rem;
@@ -16,15 +9,6 @@ Author URI: http://www.xpeedstudio.com
 
 }
 
-
-
-/* Portrait tablets and small desktops */
-/*@media (max-width: 992px) {
-
-}*/
-
-
-/* Portrait tablets and small desktops */
 @media (max-width: 991px) {
 
     .sm-text-center{
@@ -56,9 +40,6 @@ Author URI: http://www.xpeedstudio.com
 
 }
 
-
-
-/* Landscape phones and portrait tablets */
 @media  (max-width: 768px) {
     h2{
         font-size:2rem;
@@ -103,9 +84,6 @@ Author URI: http://www.xpeedstudio.com
 }
 
 
-
-
-/* Landscape phones and smaller */
 @media (max-width: 479px) {
     html {
         font-size: 85%;
