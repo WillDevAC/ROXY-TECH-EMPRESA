@@ -7,11 +7,13 @@ $('#form1').submit(function(e){
 	var mensagem = $('#mensagem').val();
 
 	$.ajax({
-		url: 'roxytech/email/send',
+		url: 'https://radiocampusadmin.com.br/email/send',
 		type: 'GET',
 		dataType: 'json',
 		data: {mensagem: 'CLIENTE: '+ nome + ' || EMAIL:  '+ email + ' || PROJETO DETALHADO: ' + mensagem + ''},
 		  beforeSend: function() {
+		  	$('#falha').text("");
+		  	$('#sucesso').text("");
 		  	$('#carregando').text("AGUARDE! ENVIANDO SOLICITAÇÃO...");
 		},
 	})
