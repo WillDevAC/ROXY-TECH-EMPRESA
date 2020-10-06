@@ -6,7 +6,7 @@
         <title>RoxyTech - Soluções em TI</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" href="favicon.ico">
+        <link rel="icon" type="image/png" href="favicon.png">
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/slick/slick.css"> 
         <link rel="stylesheet" href="assets/css/slick/slick-theme.css">
@@ -344,10 +344,6 @@
                     </div>
                 </div>
             </section>
-            <!-- Modal -->
-
-
-
             <footer id="contact" class="footer action-lage bg-black">
                 <!--<div class="action-lage"></div>-->
                 <div class="container">
@@ -360,7 +356,40 @@
                     </div>
                 </div>
             </footer>
-
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">
+                                Contato
+                            </h4>
+                        </div>
+                        <div class="modal-body">
+                            <form id="form1">
+                                  <p> Que bom ver você por aqui, Conte um pouco sobre seu projeto para gente! </p>
+                                  <div class="form-group">
+                                      <label for="name"> Nome:</label>
+                                      <input type="text" class="form-control" id="nome"  required maxlength="50">
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="email"> Email de contato:</label>
+                                      <input type="email" class="form-control" id="email" required maxlength="50">
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="name"> Descrição:</label>
+                                      <textarea class="form-control" type="textarea" id="mensagem" placeholder="Conte um pouco sobre seu projeto" maxlength="6000" rows="7"></textarea>
+                                  </div>
+                                  <center><p id="carregando" class="text-primary"></p></center>
+                                  <center><p id="sucesso" style="color: green;"></p></center>
+                                  <center><p id="falha" style="color: red;"></p></center>
+                                  <br><button type="submit" form="form1" class="btn btn-success btn-block">Solicitar orçamento &rarr;</button><br>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
@@ -375,44 +404,10 @@
         <script src="assets/css/slick/slick.min.js"></script>
         <script src="assets/js/jquery.collapse.js"></script>
         <script src="assets/js/bootsnav.js"></script>
-        <script src="ajax/API.js"></script>
-
-
-
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="email.js"></script>
         <script src="assets/js/plugins.js"></script>
         <script src="assets/js/main.js"></script>
 
     </body>
-      <div id="myModal" class="modal fade" role="dialog">
-          <div class="modal-dialog">
-              <!-- Modal content-->
-              <div class="modal-content">
-                  <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
-                      <h4 class="modal-title">
-                          Contato
-                      </h4>
-                  </div>
-                  <div class="modal-body">
-                      <form id="form1">
-                          <p> Que bom ver você por aqui, Conte um pouco sobre seu projeto para gente! </p>
-                          <div class="form-group">
-                              <label for="name"> Nome:</label>
-                              <input type="text" class="form-control" id="nome" name="nome" required maxlength="50">
-                          </div>
-                          <div class="form-group">
-                              <label for="email"> Email:</label>
-                              <input type="email" class="form-control" id="email" name="email" required maxlength="50">
-                          </div>
-                          <div class="form-group">
-                              <label for="name"> Descrição:</label>
-                              <textarea class="form-control" type="textarea" name="mensagem" id="mensagem" placeholder="Conte um pouco sobre seu projeto" maxlength="6000" rows="7"></textarea>
-                          </div>
-                      </form>
-                      <button class="btn btn-lg btn-success btn-block" onclick="ola();">Solicitar orçamento &rarr;</input><br>
-                        <center><p id="sucesso"></p></center>
-                  </div>
-              </div>
-          </div>
-      </div>
 </html>
