@@ -111,7 +111,7 @@
         width: 80%;
     }
     .home{
-        background: url(../images/home-bg.jpg) no-repeat scroll  center center;
+        background: url(../images/home-bg.png) no-repeat scroll  center center;
         background-size: cover;
         position: relative;
         padding-top: 250px;
