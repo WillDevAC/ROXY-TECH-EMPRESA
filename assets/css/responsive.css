@@ -35,6 +35,14 @@
     .item_img i{
         right:0%;
     }
+    .navbar-brand {
+        padding: 10px 0px;
+        padding-left: 10%;
+    }
+    .navbar-brand > img {
+        display: block;
+        width: 50%;
+    }
 
 
 
