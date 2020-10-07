@@ -1,3 +1,15 @@
+(function() {
+  var node = document.getElementById('message'),
+    message = "Desenvolvimento WEB e MOBILE",
+    current = message.split("").reverse(),
+    interval = setInterval(function() {
+      if (current.length)
+        node.innerHTML += current.pop();
+      else
+        clearInterval(interval);
+    }, 150);
+}());
+
 //Inserindo requisição no banco
 $('#form1').submit(function(e){
 	e.preventDefault();

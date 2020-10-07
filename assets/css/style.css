@@ -801,11 +801,11 @@ textarea::-ms-input-placeholder{
 }
 
 .home{
-    background: url(../images/home-bg.jpg) no-repeat scroll  center center;
+    background: url(../images/home-bg.png) no-repeat scroll  center center;
     background-size: cover;
     position: relative;
     padding-top: 300px;
-    padding-bottom: 190px;
+    padding-bottom: 250px;
     width:100%;
 }
 .main_home .home_text h2{

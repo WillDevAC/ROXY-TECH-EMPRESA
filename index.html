@@ -68,10 +68,10 @@
                     </div>
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#home">INICIO</a></li>                    
+                            <li><a href="#home">INICIO</a></li>
+                            <li><a href="#product">PORTFÓLIO</a></li>                    
                             <li><a href="#test">EQUIPE</a></li>
-                            <li><a href="#info" target="_blank">PORTIFÓLIO</a></li>
-                            <li><a href="#product">PROJETOS</a></li>
+                            <li><a href="#projects">PROJETOS</a></li>
                         </ul>
                     </div>
                 </div> 
@@ -84,15 +84,12 @@
                 <div class="container">
                     <div class="row">
                         <div class="main_home text-center">
-                            <div class="col-md-12">
+                            <div class="col-md-15">
                                 <div class="hello_slid">
                                     <div class="slid_item">
                                         <div class="home_text ">
-                                            <h2 class="text-white"><strong>ROXY TECH - SOLUÇÕES</strong></h2>
-                                            <h1 class="text-white">Desenvolvimento WEB e MOBILE</h1>
-                                        </div>
-                                        <div class="home_btns m-top-20">
-                                            <button class="btn btn-primary m-top-20" data-toggle="modal" data-target="#myModal">Solicitar orçamento</button>
+                                            <h1 class="text-white"><strong>ROXY TECH - SOLUÇÕES</strong></h2>
+                                            <h2 class="text-white"><div id="message"></div></h2>
                                         </div>
                                     </div>
                                 </div>
@@ -102,30 +99,34 @@
                     </div>
                 </div>
             </section>
-            <!--sessão de informações-->
+            <!--sessão portifolio-->
             <section id="product" class="product bg-grey">
                 <div class="container">
                     <div class="main_product roomy-80">
                         <div class="head_title text-center fix">
-                            <h2 class="text-uppercase">Projetos em andamento</h2>
-                            <h5>Trabalhamos com as melhores tecnologias do mercado</h5>
+                            <h2 class="text-uppercase">PORTFÓLIO DE PROJETOS</h2>
                         </div>
 
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
                             <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
                                 <div class="item active">
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm-3">
                                                 <div class="port_item xs-m-top-30">
                                                     <div class="port_img">
-                                                        <img src="assets/images/fretepago.png" alt="" />
+                                                        <img src="assets/images/stopcorona.png" alt="" style="border-radius: 5px" />
                                                         <div class="port_overlay text-center">
-                                                            <a href="assets/images/fretepago.png" class="popup-img"></a>
+                                                            <a href="assets/images/stopcorona/boasvindas.jpeg" class="popup-img">1</a>
+                                                            <a href="assets/images/stopcorona/index.jpeg" class="popup-img">2</a>
+                                                            <a href="assets/images/stopcorona/chat.jpeg" class="popup-img">3</a>
                                                         </div>
                                                     </div>
                                                     <div class="port_caption m-top-20">
-                                                        <h5><strong>APP FRETE PAGO</strong></h5>
-                                                        <h6>- Aplicativo de mobilidade urbana<br>voltado para frete de caminhoneiros - </h6>
+                                                        <h5><strong>STOP CORONA</strong></h5>
+                                                        <h6>Sistema <strong>MOBILE</strong> para combate ao corona-vírus.<br><br> </h6>
                                                         <h6>
                                                             <div class="progress">
                                                               <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>ReactNative</strong></div>
@@ -136,21 +137,22 @@
                                                               <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>NodeJS</strong></div>
                                                             </div>
                                                         </h6>
-
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-sm-3">
                                                 <div class="port_item xs-m-top-30">
                                                     <div class="port_img">
-                                                        <img src="assets/images/radiocampus.png" alt="" />
+                                                        <img src="assets/images/medical.png" alt="" style="border-radius: 5px" />
                                                         <div class="port_overlay text-center">
-                                                            <a href="assets/images/radiocampus.png" class="popup-img">+</a>
+                                                           <a href="assets/images/medical/1.jpg" class="popup-img">1</a>
+                                                            <a href="assets/images/medical/2.jpg" class="popup-img">2</a>
+                                                            <a href="assets/images/medical/3.jpg" class="popup-img">3</a>
                                                         </div>
                                                     </div>
                                                     <div class="port_caption m-top-20">
-                                                        <h5><strong>APP/SITE RADIO CAMPUS</strong></h5>
-                                                        <h6>- Aplicativo de radio<br>voltado para estudantes - </h6>
+                                                        <h5><strong>MEDICAL RTR</strong></h5>
+                                                        <h6>Sistema <strong>MOBILE</strong> de gestão de tarefas e controle de produtos.<br><br> </h6>
                                                         <h6>
                                                             <div class="progress">
                                                               <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>ReactNative</strong></div>
@@ -158,7 +160,7 @@
                                                         </h6>
                                                         <h6>
                                                             <div class="progress">
-                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>NodeJS and PHP</strong></div>
+                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>NodeJS</strong></div>
                                                             </div>
                                                         </h6>
                                                     </div>
@@ -167,22 +169,24 @@
                                             <div class="col-sm-3">
                                                 <div class="port_item xs-m-top-30">
                                                     <div class="port_img">
-                                                        <img src="assets/images/assistente.png" alt="" />
+                                                        <img src="assets/images/cicle.png" alt="" style="border-radius: 5px" />
                                                         <div class="port_overlay text-center">
-                                                            <a href="assets/images/assistente.png" class="popup-img">+</a>
+                                                            <a href="assets/images/bicicleta/produtos.png" class="popup-img">1</a>
+                                                            <a href="assets/images/bicicleta/carrinho.png" class="popup-img">2</a>
+                                                            <a href="assets/images/bicicleta/cadastro.png" class="popup-img">3</a>
                                                         </div>
                                                     </div>
                                                     <div class="port_caption m-top-20">
-                                                        <h5><strong>REDE NEURAL ELIZE </strong></h5>
-                                                        <h6>- Assistente virtual inteligente<br>com principio a automatizar consultas - </h6>
+                                                        <h5><strong>FREECYCLE </strong></h5>
+                                                        <h6>E-commerce <strong>WEB COMPLETO</strong> de venda de bicicletas.<br><br> </h6>
                                                         <h6>
                                                             <div class="progress">
-                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>Python and MachineLearning</strong></div>
+                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>PHP</strong></div>
                                                             </div>
                                                         </h6>
                                                         <h6>
                                                             <div class="progress">
-                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>Linguagem R</strong></div>
+                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>JavaScript</strong></div>
                                                             </div>
                                                         </h6>
                                                     </div>
@@ -191,22 +195,135 @@
                                             <div class="col-sm-3">
                                                 <div class="port_item xs-m-top-30">
                                                     <div class="port_img">
-                                                        <img src="assets/images/lindamulher.png" alt="" />
+                                                        <img src="assets/images/mulher.png" alt="" style="border-radius: 5px"/>
                                                         <div class="port_overlay text-center">
-                                                            <a href="assets/images/lindamulher.png" class="popup-img">+</a>
+                                                            <a href="assets/images/lindamulher/gestao.png" class="popup-img">1</a>
+                                                            <a href="assets/images/lindamulher/finalizar.png" class="popup-img">2</a>
+                                                            <a href="assets/images/lindamulher/finalizar.png" class="popup-img">3</a>
                                                         </div>
                                                     </div>
                                                     <div class="port_caption m-top-20">
-                                                        <h5><strong>E-COMMERCE LINDA MULHER</strong></h5>
-                                                        <h6>- E-commerce de maquiagens<br>e site de gestão de produtos - </h6>
+                                                        <h5><strong>LINDA MULHER</strong></h5>
+                                                        <h6><strong>SOFTWARE</strong> de gestão de caixa e controle de vendas.<br><br> </h6>
                                                         <h6>
                                                             <div class="progress">
-                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>ReactNative and Swift</strong></div>
+                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>Java</strong></div>
                                                             </div>
                                                         </h6>
                                                         <h6>
                                                             <div class="progress">
-                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>NodeJS and PHP</strong></div>
+                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>Swing</strong></div>
+                                                            </div>
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/levada.png" alt="" style="border-radius: 5px"/>
+                                                        <div class="port_overlay text-center">
+                                                            <a href="assets/images/meninalevada/1.png" class="popup-img">1</a>
+                                                            <a href="assets/images/meninalevada/2.png" class="popup-img">2</a>
+                                                            <a href="assets/images/meninalevada/2.png" class="popup-img">3</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5><strong>MENINA LEVADA</strong></h5>
+                                                        <h6>Sistema <strong>WEB</strong> de calculo de frete e rastreio de encomenda.<br><br> </h6>
+                                                        <h6>
+                                                            <div class="progress">
+                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>ReactJS</strong></div>
+                                                            </div>
+                                                        </h6>
+                                                        <h6>
+                                                            <div class="progress">
+                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>NodeJS</strong></div>
+                                                            </div>
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/hotel.png" alt="" style="border-radius: 5px"/>
+                                                        <div class="port_overlay text-center">
+                                                            <a href="assets/images/corporativo/1.jpg" class="popup-img">1</a>
+                                                            <a href="assets/images/corporativo/2.jpg" class="popup-img">2</a>
+                                                            <a href="assets/images/corporativo/3.jpg" class="popup-img">3</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5><strong>MAIS CORPORATIVO </strong></h5>
+                                                        <h6>Sistema <strong>MOBILE</strong> voltado para reserva de hoteis.<br><br> </h6>
+                                                        <h6>
+                                                            <div class="progress">
+                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>ReactNative</strong></div>
+                                                            </div>
+                                                        </h6>
+                                                        <h6>
+                                                            <div class="progress">
+                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>NodeJS</strong></div>
+                                                            </div>
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/campus.png" alt="" style="border-radius: 5px"/>
+                                                        <div class="port_overlay text-center">
+                                                            <a href="assets/images/campus/1.png" class="popup-img">1</a>
+                                                            <a href="assets/images/campus/2.png" class="popup-img">2</a>
+                                                            <a href="assets/images/campus/3.png" class="popup-img">3</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5><strong>RADIO CAMPUS </strong></h5>
+                                                        <h6>Sistema <strong>WEB</strong> de gestão de locutores e pedidos musicais.<br><br> </h6>
+                                                        <h6>
+                                                            <div class="progress">
+                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>PHP</strong></div>
+                                                            </div>
+                                                        </h6>
+                                                        <h6>
+                                                            <div class="progress">
+                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>NodeJS</strong></div>
+                                                            </div>
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="port_item xs-m-top-30">
+                                                    <div class="port_img">
+                                                        <img src="assets/images/iluminio.png" alt="" style="border-radius: 5px"/>
+                                                        <div class="port_overlay text-center">
+                                                            <a href="assets/images/chat/1.png" class="popup-img">1</a>
+                                                            <a href="assets/images/chat/2.png" class="popup-img">2</a>
+                                                            <a href="assets/images/chat/3.png" class="popup-img">3</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="port_caption m-top-20">
+                                                        <h5><strong>ILUME CHAT</strong></h5>
+                                                        <h6>Sistema de chat-bot com integração <strong>WEB.</strong><br><br> </h6>
+                                                        <h6>
+                                                            <div class="progress">
+                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>Python</strong></div>
+                                                            </div>
+                                                        </h6>
+                                                        <h6>
+                                                            <div class="progress">
+                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>NodeJS</strong></div>
                                                             </div>
                                                         </h6>
                                                     </div>
@@ -216,53 +333,20 @@
                                     </div>
                                 </div>
                         </div>
-                    </div>
-                </div>
-            </section>
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                            <span class="sr-only">Previous</span>
+                        </a>
 
-            <!--TOPICOS DE QUALIDADE-->
-            <section id="features" class="features">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_features fix  roomy-70">
-                            <div class="col-md-4">
-                                <div class="features_item sm-m-top-30">
-                                    <div class="f_item_icon">
-                                        <i class="fa fa-thumbs-o-up"></i>
-                                    </div>
-                                    <div class="f_item_text">
-                                        <h3>Entrega garantida</h3>
-                                        <p>Após o projeto ser orçado, só aceitamos o pagamento do projeto após terminamos o mesmo.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="features_item sm-m-top-30">
-                                    <div class="f_item_icon">
-                                        <i class="fa fa-tablet"></i>
-                                    </div>
-                                    <div class="f_item_text">
-                                        <h3>As melhores tecnologias</h3>
-                                        <p>Trabalhamos com as melhores tecnologias existentes hoje no mercado de tecnologia.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="features_item sm-m-top-30">
-                                    <div class="f_item_icon">
-                                        <i class="fa fa-sliders"></i>
-                                    </div>
-                                    <div class="f_item_text">
-                                        <h3>videoconferências</h3>
-                                        <p>Durante o desenvolvimento do sistema, realizamos videoconferências para demonstrar o progresso do sistema!</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="test" class="test roomy-60 bg-grey fix">
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div><!-- End off row -->
+                </div><!-- End off container -->
+            </section><!-- End off Product section -->
+            <section id="test" class="test roomy-60 fix">
                 <div class="container">
                     <div class="row">                        
                         <div class="main_test fix">
@@ -309,7 +393,7 @@
                                     </div>
 
                                     <div class="item_text">
-                                        <h5>DEV - Pedro Bernardes</h5>
+                                        <h5>DEV WEB - Pedro Bernardes</h5>
                                         <h6>bernardes@roxytech.com.br</h6>
 
                                         <p>Desenvolvedor Web Full Stack, entusiasta em segurança da informação, com diferenciais em programação mobile, cursando ciência da computação UFPI.</p>
@@ -323,7 +407,7 @@
                                     </div>
 
                                     <div class="item_text">
-                                        <h5>DEV - João silva</h5>
+                                        <h5>DEV MOBILE - João silva</h5>
                                         <h6>joãotst@roxytech.com.br</h6>
 
                                         <p>Design gráfico e desenvolvedor mobile, com experiência em Flutter e ReactNative. Diferenciais em Swift, prototipação de alta e média fidelidade, photoshop, criação de logomarcas.</p>
@@ -335,29 +419,26 @@
                 </div>
             </section>
             <!--sessão de informações-->
-            <section id="info" class="product">
+            <section id="projects" class="product bg-grey">
                 <div class="container">
                     <div class="main_product roomy-80">
                         <div class="head_title text-center fix">
-                            <h2 class="text-uppercase">PORTIFÓLIO DE PROJETOS</h2>
-                            <h5>Caso queira ver nossa galeria de fotos <a href="https://drive.google.com/drive/folders/1OExlsdtuB-xmoXBX3JqGmd5L474x_tPE" target="_blank">Clique aqui.</a></h5>
+                            <h2 class="text-uppercase">Projetos em andamento</h2>
+                            <h5>Trabalhamos com as melhores Técnicas de desenvolvimento WEB e MOBILE</h5>
                         </div>
 
-                            <!-- SLIDER -->
+                            <!-- Wrapper for slides -->
                                 <div class="item active">
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm-3">
                                                 <div class="port_item xs-m-top-30">
                                                     <div class="port_img">
-                                                        <img src="assets/images/stopcorona.png" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/stopcorona.png" class="popup-img">+</a>
-                                                        </div>
+                                                        <img src="assets/images/fretepago.png" alt="" />
                                                     </div>
                                                     <div class="port_caption m-top-20">
-                                                        <h5><strong>APP STOP CORONA</strong></h5>
-                                                        <h6>- Aplicativo desenvolvido<br>para ajudar contra a disserminação do corona vírus - </h6>
+                                                        <h5><strong>FRETE PAGO</strong></h5>
+                                                        <h6>Sistema <strong>MOBILE</strong> de frete de caminhoneiros.<br><br> </h6>
                                                         <h6>
                                                             <div class="progress">
                                                               <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>ReactNative</strong></div>
@@ -365,7 +446,7 @@
                                                         </h6>
                                                         <h6>
                                                             <div class="progress">
-                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>Firebase and PHP</strong></div>
+                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>NodeJS</strong></div>
                                                             </div>
                                                         </h6>
 
@@ -375,14 +456,12 @@
                                             <div class="col-sm-3">
                                                 <div class="port_item xs-m-top-30">
                                                     <div class="port_img">
-                                                        <img src="assets/images/medical.png" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/medical.png" class="popup-img">+</a>
-                                                        </div>
+                                                        <img src="assets/images/radiocampus.png" alt="" />
+
                                                     </div>
                                                     <div class="port_caption m-top-20">
-                                                        <h5><strong>APP MEDICAL RTR</strong></h5>
-                                                        <h6>- App de controle de tarefas<br>criado para cliente colombiano -<br><br> </h6>
+                                                        <h5><strong>RADIO CAMPUS</strong></h5>
+                                                        <h6>Sistema <strong>MOBILE</strong> de radio cultural para estudantes.<br><br> </h6>
                                                         <h6>
                                                             <div class="progress">
                                                               <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>ReactNative</strong></div>
@@ -390,7 +469,7 @@
                                                         </h6>
                                                         <h6>
                                                             <div class="progress">
-                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>NodeJS and PHP</strong></div>
+                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>NodeJS</strong></div>
                                                             </div>
                                                         </h6>
                                                     </div>
@@ -399,22 +478,19 @@
                                             <div class="col-sm-3">
                                                 <div class="port_item xs-m-top-30">
                                                     <div class="port_img">
-                                                        <img src="assets/images/cicle.png" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/cicle.png" class="popup-img">+</a>
-                                                        </div>
+                                                        <img src="assets/images/assistente.png" alt="" />
                                                     </div>
                                                     <div class="port_caption m-top-20">
-                                                        <h5><strong>WECOMMERCE FREECYCLE </strong></h5>
-                                                        <h6>- Wecommerce web completo<br> para vendas de bicicletas - <br><br></h6>
+                                                        <h5><strong>ASSISTENTE ELIZE </strong></h5>
+                                                        <h6><strong>INTELIGÊNCIA ARTIFICIAL</strong> inteligente com principio de automatizar consultas.<br><br> </h6>
                                                         <h6>
                                                             <div class="progress">
-                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>Laravel and Ajax</strong></div>
+                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>Python</strong></div>
                                                             </div>
                                                         </h6>
                                                         <h6>
                                                             <div class="progress">
-                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>JavaScript</strong></div>
+                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>Linguagem R</strong></div>
                                                             </div>
                                                         </h6>
                                                     </div>
@@ -423,120 +499,19 @@
                                             <div class="col-sm-3">
                                                 <div class="port_item xs-m-top-30">
                                                     <div class="port_img">
-                                                        <img src="assets/images/mulher.png" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/mulher.png" class="popup-img">+</a>
-                                                        </div>
+                                                        <img src="assets/images/lindamulher.png" alt="" />
                                                     </div>
                                                     <div class="port_caption m-top-20">
-                                                        <h5><strong>LINDA MULHER - SOFTWARE</strong></h5>
-                                                        <h6>- Sistema de caixa<br>para gestão de vendas- <br><br></h6>
+                                                        <h5><strong>LINDA MULHER</strong></h5>
+                                                        <h6>E-commerce <strong>MOBILE COMPLETO</strong>de venda de produtos.<br><br> </h6>
                                                         <h6>
                                                             <div class="progress">
-                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>Java, swing</strong></div>
+                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>ReactNative</strong></div>
                                                             </div>
                                                         </h6>
                                                         <h6>
                                                             <div class="progress">
-                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>Oracle</strong></div>
-                                                            </div>
-                                                        </h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/levada.png" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/levada.png" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5><strong>MENINA LEVADA - ADMIN </strong></h5>
-                                                        <h6>- Sistema de calculo e emissão<br> de notas fiscais de frete - <br><br></h6>
-                                                        <h6>
-                                                            <div class="progress">
-                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>ReactJS and NodeJS</strong></div>
-                                                            </div>
-                                                        </h6>
-                                                        <h6>
-                                                            <div class="progress">
-                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>ExpressJS</strong></div>
-                                                            </div>
-                                                        </h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/hotel.png" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/hotel.png" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5><strong>APP MAIS CORPORATIVO </strong></h5>
-                                                        <h6>- app mobile voltado<br> para reservas de hoteis - <br><br></h6>
-                                                        <h6>
-                                                            <div class="progress">
-                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>ReactNative and NodeJS</strong></div>
-                                                            </div>
-                                                        </h6>
-                                                        <h6>
-                                                            <div class="progress">
-                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>ExpressJS</strong></div>
-                                                            </div>
-                                                        </h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/campus.png" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/campus.png" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5><strong>RADIO CAMPUS - WEB</strong></h5>
-                                                        <h6>- Sistema de gestão de locutores<br> e controle de acessos web - <br><br></h6>
-                                                        <h6>
-                                                            <div class="progress">
-                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>PHP OO and NodeJS</strong></div>
-                                                            </div>
-                                                        </h6>
-                                                        <h6>
-                                                            <div class="progress">
-                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>Ajax</strong></div>
-                                                            </div>
-                                                        </h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="port_item xs-m-top-30">
-                                                    <div class="port_img">
-                                                        <img src="assets/images/iluminio.png" alt="" />
-                                                        <div class="port_overlay text-center">
-                                                            <a href="assets/images/iluminio.png" class="popup-img">+</a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="port_caption m-top-20">
-                                                        <h5><strong>CHAT BOT - ILUME</strong></h5>
-                                                        <h6>- Sistema de chat-bot<br> com integração WEB - <br><br></h6>
-                                                        <h6>
-                                                            <div class="progress">
-                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>Python and PHP</strong></div>
-                                                            </div>
-                                                        </h6>
-                                                        <h6>
-                                                            <div class="progress">
-                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>NodeJS, Axios</strong></div>
+                                                              <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong>NodeJS</strong></div>
                                                             </div>
                                                         </h6>
                                                     </div>
@@ -549,7 +524,48 @@
                     </div>
                 </div>
             </section>
-
+            <!--TOPICOS DE QUALIDADE-->
+            <section id="features" class="features">
+                <div class="container">
+                    <div class="row">
+                        <div class="main_features fix  roomy-70">
+                            <div class="col-md-4">
+                                <div class="features_item sm-m-top-30">
+                                    <div class="f_item_icon">
+                                        <i class="fa fa-thumbs-o-up"></i>
+                                    </div>
+                                    <div class="f_item_text">
+                                        <h3>Entrega garantida</h3>
+                                        <p>Após o projeto ser orçado, só aceitamos o pagamento do projeto após terminamos o mesmo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="features_item sm-m-top-30">
+                                    <div class="f_item_icon">
+                                        <i class="fa fa-tablet"></i>
+                                    </div>
+                                    <div class="f_item_text">
+                                        <h3>As melhores tecnologias</h3>
+                                        <p>Trabalhamos com as melhores tecnologias existentes hoje<br> no mercado.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="features_item sm-m-top-30">
+                                    <div class="f_item_icon">
+                                        <i class="fa fa-sliders"></i>
+                                    </div>
+                                    <div class="f_item_text">
+                                        <h3>videoconferências</h3>
+                                        <p>Durante o desenvolvimento do sistema, realizamos videoconferências para demonstrar o progresso do sistema!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!--ORÇAMENTO-->
             <section id="action" class="action bg-primary roomy-40">
                 <div class="container">
